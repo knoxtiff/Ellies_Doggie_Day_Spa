@@ -17,8 +17,8 @@
   }
   
   /* Generic components */
-    .button {
-    display: float;
+  .link-btn{
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     padding: 1rem 2rem;
@@ -28,15 +28,9 @@
     font-weight: 700;
     letter-spacing: 1px;
     font-size: 1.25rem;
+    color: black;
     background-color: white;
     cursor: pointer;
-  }
-  
-  .button:hover,
-  .button:focus,
-  .button:active {
-    color: white;
-    background-color: black;
   }
   
   .loop-back {
@@ -178,7 +172,7 @@
     font-weight: 400;
     margin: 1rem 0 2rem;
   }
-  
+   
   /* Instagram gallery */
   .gallery {
     display: flex; 
@@ -240,13 +234,9 @@
     cursor: pointer;
   }
   
-  .Contact-Container {
+  .container-contact {
     display: flex;
-    padding-left: 200px;
-  }
-
-  .Contact-Form-Container {
-    padding-left: 150px;
+    justify-content: space-between;
   }
 
   /*Services & Pricing*/ 
@@ -259,9 +249,9 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   }  
 
-  .Pricing-Container {
+  .container-pricing {
     display: flex;
-    margin: 24px;
+    justify-content: space-between;
   }
   
   /* Media queries */
